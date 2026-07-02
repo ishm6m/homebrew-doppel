@@ -10,7 +10,7 @@ cask "doppel" do
   desc "100% offline duplicate & near-duplicate file finder"
   homepage "https://github.com/ishm6m/doppel"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   app "Doppel.app"
 
   caveats <<~EOS
